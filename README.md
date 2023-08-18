@@ -1,6 +1,7 @@
 #README
 
-Here goes my notes for the "Diplomado de Aplicaciones Móviles"
+Here goes my notes and excercises for the 
+     "Diplomado de Aplicaciones Móviles iOS"
 
 ##First Module
 -MacOS
