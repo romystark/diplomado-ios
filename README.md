@@ -26,3 +26,7 @@ Here goes my notes and excercises for the
 
 // Primero irnos a main y despues el siguiente comando con la rama modificada
 - git merge "rama"
+
+//MOSTRAR TODAS LAS RAMAS
+- git branch --list
+
