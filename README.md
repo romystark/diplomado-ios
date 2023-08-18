@@ -15,13 +15,13 @@ Here goes my notes and excercises for the
 - git diff
 - git commit -m "Nombre_commit"
 
-// agregamos nueva rama
+// CREANDO UNA NUEVA RAMA
 - git branch "nombre_rama"
 
-//Trabajar en la nueva rama
+//APUNTAR A LA NUEVA RAMA
 - git checkout "rama"
 
-//Agrega todo a la nueva rama
+//AGREGA TODO A LA NUEVA RAMA
 - git add . 
 
 // Primero irnos a main y despues el siguiente comando con la rama modificada
