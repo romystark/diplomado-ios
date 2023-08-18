@@ -11,9 +11,13 @@ Here goes my notes and excercises for the
 ## Git
 - git init
 - git status
-- git add
+- git add //agrega contenido nuevo o modificado
 - git diff
-- git branch "nombre de la nueva rama"
-- git checkout "rama" cambias de rama
+
+// agregamos nueva rama
+- git branch "nombre_rama"
+
+//Trabajar en la nuev rama
+- git checkout "rama"
 - git add . 
 - git merge "rama"
