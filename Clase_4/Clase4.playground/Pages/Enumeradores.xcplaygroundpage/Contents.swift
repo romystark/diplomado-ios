@@ -14,47 +14,52 @@ let myDragon: Pet = .dragon
 let myLoro = Pet.loro
 
 
-switch myPet {
-case .dog: print("🦜")
-default: print (myPet?.rawValue ??
- myPet?.rawValue)
-}
+//switch myPet {
+////case .dog: print("🦜")
+////default: print (myPet?.rawValue ??
+//// myPet?.rawValue)
+////}
 
-let allCases = Pet.allCases{
-    for pet in allCases{print(pet.rawValue)
-    }
-    
-    enum ContactMethod{
-        case email (String)
-        case phone (Int)
-        case mail (
-            streetName: String,
-            zipCode: String,
-            streetNumber: Int)
-    }
-    var myPreferedContactMethod =
-    ContactMethod.email("myemailgoehere")
-    switch myPreferedContactMethod {
-    case .email(let strEmail): print(strEmail)
-    case .phone(let num): print(num)
-    case .mail(streetName: let name,
-               zipCode: let zc,
-               streetNumber: let num):
-        print("AdreesStreet \(name) \(num) \(zc)")
-        
-    }
-    
+//let allCases = Pet.allCases{
+//    for pet in allCases{print(pet.rawValue)
+//    }
+//
+//    enum ContactMethod{
+//        case email (String)
+//        case phone (Int)
+//        case mail (
+//            streetName: String,
+//            zipCode: String,
+//            streetNumber: Int)
+//    }
+//    var myPreferedContactMethod =
+//    ContactMethod.email("myemailgoehere")
+//    switch myPreferedContactMethod {
+//    case .email(let strEmail): print(strEmail)
+//    case .phone(let num): print(num)
+//    case .mail(streetName: let name,
+//               zipCode: let zc,
+//               streetNumber: let num):
+//        print("AdreesStreet \(name) \(num) \(zc)")
+//
+//    }
+    6+(4*(8-1))/2
     enum ArithmeticExpression {
         case number (Int)
         indirect case addition (ArithmeticExpression, ArithmeticExpression)
         indirect case multiplication (ArithmeticExpression, ArithmeticExpression)
+        
     }
     
     let five = ArithmeticExpression.number(5)
     let four = ArithmeticExpression.number(4)
+    let six = ArithmeticExpression.number(6)
     let sum = ArithmeticExpression.addition(five, four)
+    let sum2 = ArithmeticExpression.addition(product,ArithmeticExpression.number(6))
     let product = ArithmeticExpression.multiplication(sum, ArithmeticExpression.number(2))
     
+    
+    // ((5+4)*2)
     func evaluate(expression: ArithmeticExpression) -> Int{
         switch expression {
         case.number(let number): return number
@@ -62,8 +67,8 @@ let allCases = Pet.allCases{
             evaluate(expression: leftExp) +
             evaluate(expression: rightExp)
         case.multiplication(let leftExpr, let rightExp): return
-            evaluate(expression: leftExpr)*
+            evaluate(expression: leftExpr) *
             evaluate(expression: rightExp)
         }
     }
-}
+evaluate(expression: product)
