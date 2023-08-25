@@ -2,28 +2,10 @@
 
 import Foundation
 
-var greeting = "Hello, playground"
-var counter = 1
-while counter < 10 {
-    print(counter)
-    counter += 1
-}
-
-counter = 1
-repeat {
-    print(counter)
-    counter += 1
-} while counter < 10
-
-//: [Next](@next)
 import Foundation
 
 print("JUEGO SERPIENTES Y ESCALERAS ||________°_° \n")
 print("El dado inicia con valor 0 ")
-// 2- 10 , 9-11, 5-16 , 8-17
-//
-// Se me pasó copiar los estados de las escaleras y serpientes
-
 var dice = 0
 var escalera = [2, 5, 8]
 var serpiente = [16, 18, 21, 23]
@@ -74,3 +56,4 @@ while jugador < 24 {
       }
 }
 
+//: [Next](@next)

@@ -6,5 +6,6 @@
         <page name='Ciclos'/>
         <page name='while'/>
         <page name='Enumeradores'/>
+        <page name='Game'/>
     </pages>
 </playground>
