@@ -12,6 +12,7 @@ if let middleName = middleName {
 }
 
 //--------------------------------------
+
 func greetByMiddleName(fromFullName name: (first: String, middle: String?, last: String)) {
     guard let middleName = name.middle else {
         print ("Hey there!")
@@ -20,4 +21,10 @@ func greetByMiddleName(fromFullName name: (first: String, middle: String?, last:
     print("Hey, \(middleName)")
 }
 greetByMiddleName (fromFullName: (first: "Roman", middle: nil, last: "Santiago") )
+
+//--------------------------------------
+
+let myFunction: ([Int]) -> ([Int],[Int])
+
+classroom.github.com/a/f9-UgIJg
 //: [Next](@next)
