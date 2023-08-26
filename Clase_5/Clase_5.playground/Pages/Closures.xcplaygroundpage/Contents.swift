@@ -10,7 +10,7 @@ func isAscending(_ i: Int, _ j: Int) -> Bool{
 
 let volunteerSorted = volunteerCounts.sorted(by: isAscending)
 
-print(volunteerSorted)
+print("1: De menor a m  ayor " , volunteerSorted)
 
 // De otra forma
 let volunteerSorted2 = volunteerCounts.sorted(by: {(i: Int,j: Int) ->
