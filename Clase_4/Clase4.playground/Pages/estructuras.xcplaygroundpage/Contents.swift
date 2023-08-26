@@ -32,4 +32,25 @@ let myCars = Cars(wheels: 4, color: "Black")
 myCars.color = "Blue"
 let copyOfmyCars = myCars
 copyOfmyCars.color = "Red"
+
+
+//
+class Vehicle{
+    var wheels: Int?
+    init ( wheels: Int){
+        self.wheels = wheels
+    }
+}
+// Se hereda
+class Scooter {
+    var color : String
+    
+    init(color: String = "Blue"){
+        self.color = color
+    }
+}
+
+let myVehicle = Scooter(wheels: 2)
+
+
 //: [Next](@next)
