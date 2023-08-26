@@ -3,5 +3,6 @@
     <pages>
         <page name='Functions'/>
         <page name='Optionals'/>
+        <page name='Closures'/>
     </pages>
 </playground>
