@@ -74,4 +74,41 @@ print (averageVoluntersDescription)
 let defaultVolunteerFormat = format(numbers: volunteerAverages)
 print(defaultVolunteerFormat)
 
+//-------------------------------------------------------------
+// programación funcional
 
+// map
+//filter
+// reduce
+
+
+// map recorre cada elemento y
+
+let roundedVolunters = volunteerAverages.map{ number in
+    //let roundedNumber = Int(number)
+    // return "\(roundedNumber)"
+    return Int(number)
+}
+print (roundedVolunters)
+
+// filter
+
+let passingVolunters = roundedVolunters.filter{number in
+    return number >= 10
+}
+print (passingVolunters)
+
+//reduce .... regresa un unico valor
+
+//partil result es el valor inicial
+let totalVolunteers = passingVolunters.reduce(0){
+    partialResult, number in
+    return partialResult + number
+}
+print (totalVolunteers)
+
+let finalvolunteerDescription = passingVolunters.reduce (
+    "The volunteers were ") {partialResult, number in
+        return partialResult + "\(number) "
+    }
+print (finalvolunteerDescription)
