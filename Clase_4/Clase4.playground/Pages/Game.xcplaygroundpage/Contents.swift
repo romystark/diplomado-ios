@@ -26,14 +26,20 @@ while jugador < 24 {
   jugador += avanza
   print("El jugador ahora está en la posición \(jugador)")
   print("\n")
-  if jugador == 2 || jugador == 5 || jugador == 8 {
+  if jugador == 2 || jugador == 5 || jugador == 8 || jugador == 9 {
     print ("Suerte! hay una escalera H")
-    jugador += 5
+      if jugador == 2 {  jugador += 8}
+      if jugador == 5 {  jugador += 11}
+      if jugador == 8 {  jugador += 9}
+      if jugador == 9 {  jugador += 2}
     print("El jugador avanza a la posición \(jugador)")
   } else {
-     if jugador == 16 || jugador == 18 || jugador == 21 || jugador == 23 {
+     if jugador == 13 || jugador == 18 || jugador == 21 || jugador == 23 {
     print ("Mala Suerte! hay una serpiente S")
-    jugador -= 5
+         if jugador == 13 {  jugador -= 10}
+         if jugador == 18 {  jugador -= 11}
+         if jugador == 21 {  jugador -= 10}
+         if jugador == 23 {  jugador -= 8}
     print("El jugador retrocede la posición \(jugador)")
       }
     }
