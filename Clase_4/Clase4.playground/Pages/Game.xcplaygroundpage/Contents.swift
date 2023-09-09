@@ -57,7 +57,8 @@ while jugador < 24 {
   }
   if jugador == 21 || jugador == 23 {
     print ("Mala Suerte! hay una serpiente S")
-    jugador -= 5
+      if jugador == 21 {  jugador -= 10}
+      if jugador == 23 {  jugador -= 8}
     print("El jugador retrocede la posición \(jugador)")
       }
 }
