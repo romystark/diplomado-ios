@@ -99,7 +99,7 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Collection" image="square" catalog="system" id="OYD-KW-wml">
-                        <imageReference key="selectedImage" image="square.fill" catalog="system" symbolScale="default"/>
+                        <imageReference key="selectedImage" image="folder" catalog="system" symbolScale="default"/>
                     </tabBarItem>
                     <navigationItem key="navigationItem" id="lkA-ea-y8v"/>
                     <connections>
@@ -151,8 +151,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="folder" catalog="system" width="128" height="96"/>
         <image name="square" catalog="system" width="128" height="114"/>
-        <image name="square.fill" catalog="system" width="128" height="114"/>
         <image name="tablecells" catalog="system" width="128" height="93"/>
         <image name="tablecells.fill" catalog="system" width="128" height="93"/>
         <systemColor name="systemBackgroundColor">

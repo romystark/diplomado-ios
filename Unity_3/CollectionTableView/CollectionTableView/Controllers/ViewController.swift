@@ -9,7 +9,26 @@ import UIKit
 
 class ViewController: UIViewController {
     
-    var dataArray = ["Primero","Segundo","Tercero"] // Conservation data
+    var dataArray = ["Articulo 1",
+                     "Articulo 2",
+                     "Articulo 3",
+                     "Articulo 4",
+                     "Articulo 5",
+                     "Articulo 6",
+                     "Articulo 7",
+                     "Articulo 8",
+                     "Articulo 9",
+                     "Articulo 10",
+                     "Articulo 11",
+                     "Articulo 12",
+                     "Articulo 13",
+                     "Articulo 14",
+                     "Articulo 5",
+                     "Articulo 16",
+                     "Articulo 17",
+                     "Articulo 18",
+                     "Articulo 19",
+                     "Articulo 20"] // Conservation data
     var filterArray: [String] = [] // Filtered data
     
     @IBOutlet weak var tableView: UITableView!
