@@ -23,12 +23,12 @@ class ViewController: UIViewController {
                      "Articulo 12",
                      "Articulo 13",
                      "Articulo 14",
-                     "Articulo 5",
+                     "Articulo 15",
                      "Articulo 16",
                      "Articulo 17",
                      "Articulo 18",
                      "Articulo 19",
-                     "Articulo 20"] // Conservation data
+                     "Articulo 20"  ] // Conservation data
     var filterArray: [String] = [] // Filtered data
     
     @IBOutlet weak var tableView: UITableView!
